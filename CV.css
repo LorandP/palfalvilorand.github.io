@@ -1,0 +1,360 @@
+/* CSS Document */
+	    
+		body{
+	   background-image:url(Poze/sus.jpg);
+	   background-repeat:repeat-x;
+	     font-family: Arial;
+   font-weight:lighter;
+   		width:70%;
+		margin:0 auto;
+	   }
+	   
+	   div.general{
+		width:950px;
+		height:780px;
+		margin:auto;	
+		}
+		
+		div.sus{
+		width:960px;
+		height:110px;
+		float:left;
+		}		
+		
+		h1{
+		font-size:45px;
+		color:#73A822;
+		font-family:Arial;
+		margin-top:20px;
+		margin-bottom:0px;
+		
+		}
+		span{
+		color:#999999;
+		
+		}
+		h3.Ocupatia{
+		color:#73A822;			
+		letter-spacing:0.5px;
+		font-family:Arial;	
+		font-size:20px;	
+        font-weight:100;
+		margin-top:0px;
+
+		}	
+		div.titlu{
+		width:500px;
+		height:200px;
+		float:left;
+		}	
+		div.meniuri{
+		width:450px;
+		height:50px;
+		float:right;
+		margin-top:70px;
+		}
+
+	    a{
+		display:block;
+		width:90px;
+		float:left;
+		border-top:1px solid #999999;
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		text-decoration:none;
+		color:#999999;
+		margin-left:15px;				
+		text-align:center;
+		letter-spacing:1px;	
+		font-weight:100;	
+		}		
+		
+		a:visited{
+		color:#999999;
+		}
+		
+		a:hover{
+		color:#73A822;
+        border-top:4px solid #73A822;
+		}
+		
+		a:active{
+		color:#73A822;
+		}
+		
+		
+	   <!--De la mijloc in jos-->
+		div.mijlocSus{
+		width:900px;
+		height:auto;
+		float:left;				
+		}	
+		
+		div.mijloc1{
+		width:868px;
+		height:auto;
+		float:left;
+		background-color:#FCFCFC;	
+		border:1px solid #CCCCCC;	
+		border-radius:6px;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		margin-top:50px;
+		margin-bottom:30px;
+		padding:40px;
+		}	
+		
+		div.CV{
+		width:350px;
+		height:250px;
+		float:left;	
+        font-weight:lighter;   	
+		}	
+		
+		a.linkuri{
+		width:35px;
+		border:0px;
+		padding-right:5px;
+		margin-left:0px;
+		}   
+		
+		div.CV p{
+		margin-top:5px;
+		}
+		
+		div.Poza{
+		width:350px;
+		height:250px;
+		float:right;	
+		}
+					
+		
+		div.mijloc1 span{
+		font-size:45px;
+		color:#73A822;
+		font-family:Arial;
+		margin-top:20px;
+		margin-bottom:0px;
+		}
+	 
+		
+	 	div.mijloc1 img{
+		float:right;
+		border:1px solid #CCCCCC;
+		margin-top:0px;
+		padding:0;
+		border-radius:6px;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		}
+		
+		   p.Profesia{
+		font-family:Arial;
+		font-size:26px;
+		margin-top:40px;
+		margin-bottom:0px;
+		padding-bottom:10px;
+		}
+		
+		a.linkuri img{
+		border:0px;
+		}
+		
+		div.InfoExperienta{
+		width:700px;
+		height:auto;
+		float:left;
+		}
+		
+		div.pInfo{
+		width:700px;		
+		height:auto;		
+		float:left;
+		margin-right:0px;
+		padding-top:0px;		
+		margin-top:-20px;
+		 
+   font-weight:lighter;
+		}
+		
+	
+		div.ProfessionalInfo{
+		width:700px;
+		height:auto;
+		float:left;
+		border-top:1px solid #CCCCCC;
+		margin-top:5px;
+		font:Arial;
+		margin-right:0px;
+		letter-spacing:0.5px;
+		font-size:17px;
+		}
+		
+		div.ProfessionalInfo span{
+		color:#73A822;
+		font-size:22px;
+		font:Arial;
+		}
+		
+		div.LimbajSkill{
+		width:200px;
+		height:auto;
+		float:right;
+		margin-left:20px;
+		margin-top:20px;
+		}
+		
+		div.TitluLimbaj_Skill{
+		width:200px;
+		height:auto;
+		float:left;
+		font-size:22px;
+		color:#73A822;	
+		margin-top:-14px;	
+		}		
+		
+		div.ContinutLimbajSkill{
+		width:200px;
+		height:auto;
+		float:left;
+		border-top:1px solid #CCCCCC;
+		margin-bottom:4px;
+		font:Arial;	
+		letter-spacing:0.5px;
+		margin-top:-10px;
+		}
+		
+		div.TitluSkill{
+		width:200px;
+		height:auto;
+		float:left;
+		font-size:22px;
+		color:#73A822;	
+		margin-top:50px;
+		}	
+@media only screen and (min-width:150px) and (max-width:600px){
+	
+		body{	   
+   		width:100%;	
+		background-image:none;	
+	   }
+	   
+	 	div.general{
+		width:100%;
+		height:auto;	
+				
+		} 
+		
+		div.sus{
+		width:100%;
+		height:auto;		 			
+		}	
+		
+		div.titlu{		
+		width:100%;
+		height:auto;	
+		background-color:#000000;
+		text-align:center;
+		}	
+		
+		h1{
+		margin-top:0;
+		font-size:45px;
+		
+		}
+		
+		h3.Ocupatia{
+		margin-top:10px;		
+		}	
+		
+		div.meniuri{
+		width:100%;
+		float:left;
+		height:150px;		
+		margin-top:0;		
+		}
+		
+		a{
+		
+		width:100%;				
+		font-size:16px;			
+		margin:0;				
+		text-align:center;
+		padding:10px 0;
+		}	
+	   
+		div.mijlocSus{
+		width:100%;				
+		}	   
+		
+		div.mijloc1{
+		width:95%;					
+		padding:6%  2%;
+	    margin:10% 0; 
+		}				   
+	   
+ 		div.CV{
+		width:100%;
+		height:auto;
+			
+		}		
+		
+		a.linkuri{
+		width:35px;
+		border:0px;
+		padding-right:5px;
+		margin-left:0px;
+		float:left;
+		}   		
+		
+		div.Poza{
+		width:100%;
+		height:auto;
+		float:left;	
+		}	 
+		
+	 	div.mijloc1 img{
+		width:100%;
+		float:left;		
+		margin:0 auto;		
+		}   
+	   
+	   	div.InfoExperienta{
+		width:98%;
+		margin-top:-5%;
+		margin-left:2%;	
+		}
+	   
+	    div.pInfo{
+		width:98%;			
+		}
+		
+		div.ProfessionalInfo{
+		width:98%;	
+		
+		}
+		
+		div.LimbajSkill{
+		width:98%;
+		height:auto;
+		float:left;
+		margin-left:2%;
+		margin-top:20px
+		}		
+		
+		div.TitluLimbaj_Skill{
+		width:98%;
+		height:auto;	
+		margin-top:0;
+		}		
+		
+		div.ContinutLimbajSkill{
+		width:98%;			
+		}
+		
+		div.TitluSkill{
+		width:98%;
+		}	
+	   
+	   
+}

@@ -1,0 +1,277 @@
+/* CSS Document */
+		body{
+		background-image:url(Poze/sus.jpg);
+	   background-repeat:repeat-x;
+		width:70%;
+		font-size:85%;
+		margin:0 auto;
+		}
+		
+		div.general{
+		width:950px;
+		height:780px;
+		margin:auto;	
+		}
+		
+		div.sus{
+		width:960px;
+		height:110px;
+		float:left;
+		}		
+		
+		h1{
+		font-size:45px;
+		color:#73A822;
+		font-family:Arial;
+		margin-top:20px;
+		margin-bottom:0px;		
+		}
+		
+		span{
+		color:#999999;
+		
+		}
+		
+		h3.Ocupatia{
+		color:#73A822;			
+		letter-spacing:0.5px;
+		font-family:Arial;	
+		font-size:20px;	
+                font-weight:100;
+		margin-top:0px;
+		}	
+		
+		div.titlu{
+		width:500px;
+		height:200px;
+		float:left;
+		}
+	
+		div.meniuri{
+		width:450px;
+		height:50px;
+		float:right;
+		margin-top:70px;
+		}
+		
+     
+		
+		a{
+		display:block;
+		width:90px;
+		float:left;
+		border-top:1px solid #999999;
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		text-decoration:none;
+		color:#999999;
+		margin-left:15px;			
+		text-align:center;
+		letter-spacing:1px;	
+		font-weight:100;	
+		}
+				
+		a:visited{
+		color:#999999;
+		}
+		a:hover{
+		color:#73A822;
+                border-top:4px solid #73A822;
+		}
+		a:active{
+		color:#73A822;
+		}			
+	   
+	   
+	   <!--De la mijloc in jos-->
+	   div.Projects{
+	   width:900px;
+	   height:auto;
+	   float:left;	
+	   font:Arial;
+	   letter-spacing:0.5px;   
+	   }
+	   
+	   div.AboutThisPage{
+	   width:908px;
+	   height:auto;
+	   float:left;
+	   padding-left:40px;
+	   padding-bottom:30px;
+	   padding-top:25px;
+	   margin-top:50px;
+	   border:1px solid #CCCCCC;	
+	   margin-bottom:30px;
+	   border-radius:6px;
+	   -moz-border-radius:6px;
+	   -webkit-border-radius:6px;	   
+	   background-color:#FCFCFC;
+	   font-size:17px;
+	   letter-spacing:0.5px;
+	     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight:lighter;
+	   }
+	   
+	   div.AboutThisPage span{
+	    font-size:45px;
+		color:#73A822;
+		font-family:Arial;
+		margin-top:20px;
+		margin-bottom:0px;	
+	   }
+	   
+	   div.LatestProjects{
+	   width:200px;
+	   height:auto;
+	   float:left;
+	   font-size:26px;
+	   padding:0px;
+	   margin-bottom:0px;
+	   }
+	   
+	   div.LatestProjects p{
+	   padding-bottom:10px;
+	   margin:0px;
+	     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight:lighter;
+	   }
+	   
+	   div.ProjectContent{
+	   width:948px;
+	   height:auto;
+	   float:left;
+	   border-top:1px solid #CCCCCC;
+	   }
+
+	     a.linkProiect{
+		width:auto;	
+		font-family:Arial, sans-serif;
+		font-size:17px;
+		color:#73A822;		
+		letter-spacing:1px;	
+		margin-left:0;
+	    }
+	   
+            a.linkProiect:hover{
+	     text-decoration: underline;
+	   }
+
+	   div.ProjectContent span{
+	   font-size:20px;
+	   color:#73A822;	
+	   padding-bottom:0px;   
+	   }
+
+           div.ProjectContent p{
+	   float:left;
+	   font-size:17px;
+	   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+           font-weight:lighter;
+	   }
+
+	   div.ProjectContent a{
+	   margin-right:30px margin-left:0px;
+	   padding:0px;
+	   border:0px;	  
+	   }   
+
+           #poze:hover{
+	    font-size:15px;		
+	   }
+	   	   
+	
+	   
+	  
+	   
+	 
+		
+@media only screen and (min-width:150px) and (max-width:600px){
+		body{
+		width:100%;
+		font-size:95%;
+		background-image:none;
+		 }
+		 
+		div.general{
+		width:100%;;
+		height:1380px;
+		margin:0 auto;
+		}
+		
+		div.sus{
+		width:100%;
+		height:auto;
+		float:left;
+		}		
+		
+		div.titlu{
+		width:100%;
+		height:auto;
+		float:left;
+		background-color:#000000;
+		text-align:center;
+		}
+		
+		h1{			
+		margin:0;		
+		}
+		
+		h3.Ocupatia{		
+		margin-top:10px;
+		}
+		
+		div.meniuri{
+		width:100%;
+		height:150px;
+		float:left;		
+		text-align:center;	
+		margin:0;
+	
+		}
+		
+		a{
+		display:block;
+		width:100%;
+		font-size:16px;
+		margin:0 auto;
+		padding:10px 0;;		
+		}	
+		
+	   div.Projects{
+	   width:100%;
+	   height:600px;
+	  
+	   }
+	    
+	   div.AboutThisPage{	   
+	   width:95%;	
+	   heigth:auto;				
+	   padding:0 2%;
+	   margin:10% 0; 
+	   }
+	   
+	   div.AboutThisPage span{	 
+		margin:0;
+		
+	   }
+	   
+	   div.LatestProjects{
+	   width:98%;
+	      padding-left:2%;
+	   }
+	   
+	   div.ProjectContent{
+	   width:98%;
+	   padding-left:2%;
+	   }
+	   
+	   div.ProjectContent a{
+	   width:98%;
+	   height:auto;
+	   float:left;
+	   margin:3% auto; 
+	   text-align:left;	   
+	   }		    
+	     
+
+}

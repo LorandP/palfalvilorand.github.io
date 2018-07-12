@@ -1,0 +1,406 @@
+/* CSS Document */
+	
+	body{
+	   background-image:url(Poze/sus.jpg);
+	   background-repeat:repeat-x;
+	   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",        Helvetica, Arial, "Lucida Grande", sans-serif; 
+       font-weight: 100;
+	   width:70%;
+	   margin:0 auto;
+	   }
+	   
+	div.general{
+		width:950px;
+		height:780px;
+		margin:auto;	
+	
+		}
+		
+		div.sus{
+		width:960px;
+		height:110px;
+		float:left;
+		}		
+		
+		h1{
+		font-size:45px;
+		color:#73A822;
+		font-family:Arial;
+		margin-top:20px;
+		margin-bottom:0px;
+		
+		}
+		span{
+		color:#999999;		
+		}
+		h3.Ocupatia{
+		color:#73A822;			
+		letter-spacing:0.5px;
+		font-family:Arial;	
+		font-size:20px;	
+        font-weight:100;
+		margin-top:0px;
+		}	
+		
+		div.titlu{
+		width:500px;
+		height:200px;
+		float:left;
+		}	
+		div.meniuri{
+		width:450px;
+		height:50px;
+		float:right;
+		margin-top:70px;
+		}
+
+		a{
+		display:block;
+		width:90px;
+		float:left;
+		border-top:1px solid #999999;
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		text-decoration:none;
+		color:#999999;
+		margin-left:15px;				
+		text-align:center;
+		letter-spacing:1px;	
+		font-weight:100;	
+		}		
+		
+		a:hover{
+		color:#73A822;
+        border-top:4px solid #73A822;
+		}
+		
+		
+	  
+		
+		div.container{
+		width:980px;
+		height:800px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:auto;
+		}
+		
+		div.interior1{
+		width:900px;
+		height:340px;
+		background-color:#FCFCFC;
+		border:1px solid #CCCCCC;
+		border-radius:6px;
+		padding: 20px;
+		float:left;
+		margin-top:50px;
+		}
+		 
+		div.interior2{
+		width:700px;
+		height:276px;
+		float:left;
+		margin-top:20px;
+		margin-left:20px;		
+		}
+		
+		img.Lori{
+		float:left;
+		border:1px solid #CCCCCC;	
+		margin-right:40px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		}
+		
+		h1.hello{
+	    float:left;	
+		font-size:70px;	
+		margin-top:-10px;
+		margin-bottom:0px;
+		margin-right:35px;
+		}
+		
+		h3.work{
+		float:left;
+		font-size:24px;			
+		font-family:Arial;
+		font-weight:100;
+		letter-spacing:0.5px;
+		color:#73A822;
+		margin-top:-5px;	
+		margin-bottom:20px;
+		margin-right:40px;
+		}
+
+		p.aboutMe{
+		margin-right:40px;
+		letter-spacing:0.5px;
+		font-family:Arial;
+		font-size:14px;
+		}
+
+		a.MyCV{
+		display:block;
+		float:left;
+		font-size:16px;
+		width:130px;
+		padding:5px;
+		text-decoration:none;
+		background-color:#73A822;
+		color:#FFFFFF;	
+		margin-top:27px;
+		border:0px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		}
+
+		a.MyCV:hover{
+		transition:0.5s ease;
+		background-color:#BFF398;
+		}
+	
+		
+  		div.Information{
+		width:180px;
+		height:370px;
+		float:right;
+		}
+		
+		div.cont{
+		width:180px;
+		height:64px;
+		float:left;				
+		margin-top:17px;
+		}
+		
+		div.cont a{
+		width:35px;
+		border:0px;
+		padding-right:5px;
+		margin-left:0px;
+		}
+				
+		span.titlu{
+		color:#73A822;
+		font:Arial;
+		font-size:17px;
+		letter-spacing:0.5px;	
+		}
+		
+	 	p.ContinutInformatii{
+		margin:0px;
+		padding:0px;
+		font-family:Arial;
+		font-size:14px;
+		}	
+		
+	
+	   div.parteaDeJos{
+	   width:940px;
+	   height:150px;
+	   float:left;
+	   margin-top:30px;
+	   }
+	   
+	    div.parteaDeJos span{
+		color:#73A822;
+		font-size:18px;
+		}
+		
+	   div.parteaDeJos p{
+	   width:270px;
+	   float:left;
+	   margin-top:40px;	
+	   letter-spacing:0.5px;
+	   font-size:14px;
+	   }
+	   
+		p.par1{
+		margin-left:30px;
+		padding-left:30px;
+		border-left:1px solid #666666;		
+		letter-spacing:0.5px;
+		}
+@media only screen and (min-width:150px) and (max-width:600px)
+{
+		body{
+		width:100%;
+		font-size:95%;
+		background-image:none;
+		 }
+		 
+		div.general{
+		width:100%;;
+		height:1380px;
+		margin:0 auto;
+		}
+		
+		div.sus{
+		width:100%;
+		height:auto;
+		float:left;
+		}		
+		
+		div.titlu{
+		width:100%;
+		height:auto;
+		float:left;
+		background-color:#000000;
+		text-align:center;
+		}
+		
+		h1{			
+		margin:0;	
+		}
+		
+		h3.Ocupatia{		
+		margin-top:10px;
+		}	
+		
+		div.meniuri{
+		width:100%;
+		float:left;
+		height:150px;		
+		margin-top:0;
+		text-align:center;	
+		}
+		
+		a{
+		display:block;
+		width:100%;
+		float:none;
+		font-size:16px;			
+		margin:0;
+		padding:10px 0;
+		}	
+		
+		div.container{
+		width:100%;		
+		margin:0 auto;
+		height:auto;
+		}
+		
+		div.interior1{
+		width:95%;
+		height:auto;				
+		padding:0;
+		float:left;
+		margin-top:10%;
+		text-align:left;	
+		padding:0 2%;
+		}		 
+		
+		div.interior2{
+		width:100%;
+		height:auto;
+		float:left;		
+		margin-left:0;
+		}
+		
+		img.Lori{
+		width:100%;
+		float:left;
+		border-radius:5px;
+		margin-right:0;	
+		}
+		
+		h1.hello{
+	    float:none;
+		font-size:70px;	
+		margin:0;
+		text-align:center;
+		}
+		
+		h3.work{
+		margin-top:0;
+		margin-bottom:20px;
+		margin-right:0;
+		text-align:center;
+		float:none;
+		}
+		
+		p.aboutMe{
+		margin-right:0;
+		font-size:16px;
+		}
+		
+		a.MyCV{
+		display:block;
+		height:35px;
+		float:none;
+		width:95%;
+		padding:0;	
+		margin:25px auto;
+		font-size:30px;
+		
+	
+		}
+	
+		div.Information{
+		width:100%;
+		height:auto;
+		float:left;
+		}
+		
+		div.cont{
+		width:100%;
+		height:84px;
+		float:left;			
+		margin:0 auto;
+		text-align:center;		
+		padding-top:10px;
+			
+		}
+		
+		span.titlu{		
+		font-size:20px;	
+		}		
+		
+		p.ContinutInformatii{			
+		font-size:16px;
+		}	
+		
+		div.cont a{
+		width:95%;
+		border:0px;
+		padding-right:5px;
+		margin-left:0px;
+		display:inline;
+		}
+		
+		div.parteaDeJos{
+	    width:100%;
+	    height:450px;
+	    float:left;
+	    margin-top:30px;
+	
+	
+	   }
+	   
+	    div.parteaDeJos span{
+	    font-size:18px;
+		
+	   }
+		
+	   div.parteaDeJos p{
+	   width:100%;
+	   float:left;
+	   margin-top:40px;	
+	   font-size:16px;
+	   padding:0;
+	   }
+	   
+		p.par1{
+		margin:0 auto;
+		
+		border:none;
+		
+		}
+	
+		
+	 	
+	
+}	
+		

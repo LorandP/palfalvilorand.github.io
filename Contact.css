@@ -1,0 +1,281 @@
+/* CSS Document */
+       	body{
+		background-image:url(Poze/sus.jpg);
+	   background-repeat:repeat-x;
+		width:70%;
+		font-size:85%;
+		margin:0 auto;
+		}
+	   
+	   div.general{
+		width:950px;
+		height:780px;
+		margin:auto;	
+		}
+		
+		div.sus{
+		width:960px;
+		height:110px;
+		float:left;
+		margin-bottom:50px;
+		}
+		
+		h1{
+		font-size:45px;
+		color:#73A822;
+		font-family:Arial;
+		margin-top:20px;
+		margin-bottom:0px;		
+		}
+		
+		span{
+		color:#999999;
+		
+		}
+		h3.Ocupatia{
+		color:#73A822;			
+		letter-spacing:0.5px;
+		font-family:Arial;	
+		font-size:20px;	
+                font-weight:100;
+		margin-top:0px;
+		}	
+		
+		div.titlu{
+		width:500px;
+		height:200px;
+		float:left;
+		}	
+
+		div.meniuri{
+		width:450px;
+		height:50px;
+		float:right;
+		margin-top:70px;
+		}
+
+		a{
+		display:block;
+		width:90px;
+		float:left;
+		border-top:1px solid #999999;
+		font-family:Arial, sans-serif;
+		font-size:14px;
+		text-decoration:none;
+		color:#999999;
+		margin-left:15px;				
+		text-align:center;
+		letter-spacing:1px;	
+		font-weight:100;	
+		}
+		
+		a:visited{
+		color:#999999;
+		}
+
+		a:hover{
+		color:#73A822;
+		border-top:4px solid #73A822;
+		}
+
+		a:active{
+		color:#73A822;
+		}	
+		
+	   
+	   
+	    <!--De la mijloc in jos-->
+	   div.Mijloc{
+	   width:800px;
+	   height:800px;
+	   background-color:#00CC00;
+	   float:left;
+	   margin:0;
+	   padding:0;
+	   }
+
+	   div.Contact{
+	   width:260px;
+	   height:auto;
+	   float:left;
+	   padding-top:40px;
+	   font-size:0;	   
+	   font-family:Arial;
+	   margin-top:5px;
+	   }
+	   
+	   span.Title{
+	   	font-size:45px;
+		color:#73A822;
+	   }
+
+	   span.Nume{
+	   font-size:24px;
+	   color:#73A822;
+	   }
+	   
+	   div.Contact p{
+	   font-size:16px;
+	   letter-spacing:0.5px;	   
+	   }
+	   
+	   div.Contact a{
+	   width:35px;
+	   border:0px;
+	   padding-right:5px;
+	   margin-left:0px;
+	   }
+		
+	    span.email{
+		color:#73A822;
+		}
+		
+		div.SendingEmail{
+		width:600px;
+		height:auto;
+		float:right;
+		margin-top:135px;
+		}
+		
+		form{
+		width:600px;
+		height:auto;
+		font:Arial;
+		font-size:16px;
+		line-height:10px;
+		text-decoration:none;
+		}
+
+	    input{
+		width:585px;
+		height:25px;
+		display:block;
+		border:1px solid #CCCCCC;
+		background-color:#CCCCCC;
+		color:#666666;
+		font:Arial;
+		font-size:16px;
+		padding:2px;
+		margin-bottom:5px;
+		}
+		
+		textarea#message{
+		width:585px;
+		height:150px;
+	    border:1px solid #CCCCCC;
+		background-color:#CCCCCC;
+		color:#666666;
+		font:Arial;
+		font-size:16px;
+		padding:2px;
+		margin-bottom:5px;
+		}
+		
+		input#send{
+		width:60px;
+		height:25px;
+		background-color:#73A822;
+		color:#FFFFFF;
+		font:Arial;
+		font-size:18px;
+		float:right;
+		margin-right:9px;
+		padding:2px;
+		}
+		div.SendingEmail p{
+		font:Arial;
+		font-size:19px;
+		}
+		
+@media only screen and (min-width:150px) and (max-width:600px){
+
+  		body{
+		background-image:none;
+		width:100%;
+		font-size:95%;
+		}
+		
+		div.general{
+		width:100%;
+		height:auto;
+		margin:0 auto;	
+		}
+		
+		div.sus{
+		width:100%;
+		height:auto;
+		float:left;
+		}
+		
+	    h1{
+		margin:0;	
+		}
+		
+		h3.Ocupatia{		
+		margin-top:10px;
+		}
+		
+		div.meniuri{
+		width:100%;
+		height:150px;
+		float:left;		
+		text-align:center;	
+		margin:0;	
+		}
+		
+		div.titlu{
+		width:100%;
+		height:auto;
+		float:left;
+		background-color:#000000;
+		text-align:center;
+		}
+		
+		a{
+		display:block;
+		width:100%;
+		font-size:16px;
+		margin:0 auto;
+		padding:10px 0;;		
+		}
+		
+		div.Mijloc{
+	    width:100%;
+	    height:auto;
+	    float:left;	  
+	    }
+	   
+	    div.Contact{
+	    width:96%;
+	    height:auto;
+	    float:left;
+	    padding:0 2%;
+	    margin:1% 0;
+	    }
+		
+		div.SendingEmail{
+		width:98%;
+		height:auto;
+		float:left;
+		margin-top:0;
+		padding-left:2%;
+		}
+		
+		form{
+		width:98%;
+		height:auto;	
+		
+		}
+		
+		input{
+		width:100%;	
+		}
+		
+		textarea#message{
+		width:100%;
+		}
+		
+
+
+
+}
